@@ -1,35 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adripple</title>
-  <!-- Optional: Add favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Adripple is a fresh new platform, designed to make an impact. More updates coming soon!">
-  <!-- Google AdSense: Adripple publisher -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7969385630457201"
-     crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adripple — Creative Digital Studio</title>
+  <meta name="description" content="Adripple — design, development and digital strategy. Clean, modern sites & brand experiences." />
+  <meta name="google-site-verification" content="YOUR_UNIQUE_CODE_HERE" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%22 0 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💧</text></svg>">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4;--radius:14px;--maxw:1100px;--gap:24px}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto;line-height:1.5;background:#0f172a;color:#e6eef6;-webkit-font-smoothing:antialiased;padding:32px 20px}
+    .container{max-width:var(--maxw);margin:0 auto}
+    header,footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+    .logo{width:46px;height:46px;display:grid;place-items:center;background:linear-gradient(135deg,#06b6d4,#7c3aed);border-radius:12px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+    nav a.cta{background:linear-gradient(90deg,#06b6d4,#7c3aed);color:#041022;padding:10px 14px;border-radius:10px;font-weight:600}
+    section{margin-top:36px}.card{background:rgba(255,255,255,0.02);border-radius:var(--radius);padding:28px}
+    .muted{color:var(--muted)}h2,h3,h4{margin-top:0}
+    form{display:flex;flex-direction:column;gap:10px}input,textarea{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:12px;border-radius:10px;color:inherit}
+    .btn{padding:12px 16px;border-radius:12px;background:linear-gradient(90deg,#06b6d4,#7c3aed);color:#041022;border:0;cursor:pointer;font-weight:600}
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Adripple</h1>
-    <p>Your journey starts here 🚀</p>
-  </header>
-  <main>
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">About Us</h2>
-      <p>Adripple is a fresh new platform, designed to make an impact. More updates coming soon!</p>
+  <div class="container">
+    <header>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="logo">💧</div>
+        <strong>Adripple</strong>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#insights">Insights</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="card">
+      <h2>About Adripple</h2>
+      <p>Adripple is a creative digital studio based in South Africa, focused on designing and developing modern digital experiences. Our goal is to help brands make waves online through meaningful strategy, design excellence, and performance-driven technology. We work with startups, entrepreneurs, and small businesses to bring their stories to life on the web.</p>
     </section>
-    <section aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p>Email us at: <a href="mailto:info@adripple.co.za">info@adripple.co.za</a></p>
+
+    <section id="services" class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>Brand Identity:</strong> Complete brand systems — from logos and colors to typography and voice guidelines.</li>
+        <li><strong>Web Design:</strong> Custom websites built for conversion and user experience across all devices.</li>
+        <li><strong>Development:</strong> Lightning-fast, SEO-friendly sites using modern frameworks and clean code.</li>
+        <li><strong>Digital Strategy:</strong> Social, content, and campaign planning that helps your brand grow organically.</li>
+      </ul>
     </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Adripple. All rights reserved.</p>
-  </footer>
+
+    <section id="portfolio" class="card">
+      <h2>Portfolio</h2>
+      <p>Our recent projects demonstrate the value of design-driven development and collaboration.</p>
+      <article>
+        <h4>Local Coffee Co.</h4>
+        <p>We built a fresh e-commerce website and digital identity for a local roaster. The new platform improved customer engagement and boosted monthly sales by 28%.</p>
+      </article>
+      <article>
+        <h4>Greenfield NGO</h4>
+        <p>A modern campaign microsite designed for awareness and easy donations. It simplified storytelling while keeping donor trust high through transparency.</p>
+      </article>
+      <article>
+        <h4>Fintech Startup</h4>
+        <p>Created a scalable design system and landing page for a growing fintech brand, emphasizing credibility and conversion.</p>
+      </article>
+    </section>
+
+    <section id="insights" class="card">
+      <h2>Insights</h2>
+      <article>
+        <h4>How clean design drives engagement</h4>
+        <p>Visual simplicity improves comprehension and conversions. We use hierarchy, whitespace, and rhythm to guide users toward the desired action while maintaining brand identity.</p>
+      </article>
+      <article>
+        <h4>Why site speed matters more than ever</h4>
+        <p>Fast-loading pages improve SEO and user trust. Every millisecond counts — our builds use optimized images, code splitting, and lazy loading to maintain speed.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>We’d love to collaborate. Fill out the form below or email us directly at <a href="mailto:hello@adripple.example">hello@adripple.example</a>.</p>
+      <form onsubmit="handleSubmit(event)">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="formMessage" class="muted" style="margin-top:10px"></div>
+    </section>
+
+    <section id="privacy" class="card">
+      <h2>Privacy Policy</h2>
+      <p>Adripple respects your privacy. We do not store, share, or sell personal data. This website may use third-party cookies (such as Google AdSense) to serve relevant ads. By using this site, you consent to such usage according to Google’s Privacy and Terms.</p>
+    </section>
+
+    <footer>
+      <div class="muted">© 2025 Adripple — Designed with purpose</div>
+      <div class="muted">Follow us on <a href="#" style="color:var(--muted)">LinkedIn</a> · <a href="#" style="color:var(--muted)">Behance</a></div>
+    </footer>
+  </div>
+
+  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      const f=e.target;const data=new FormData(f);
+      const body=`Name: ${data.get('name')}
+Email: ${data.get('email')}
+Message: ${data.get('message')}`;
+      const mailto=`mailto:hello@adripple.example?subject=Website%20Inquiry&body=${encodeURIComponent(body)}`;
+      window.location.href=mailto;
+      document.getElementById('formMessage').textContent='Opening email client...';
+    }
+  </script>
 </body>
 </html>
